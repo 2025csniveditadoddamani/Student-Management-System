@@ -1,0 +1,12 @@
+name = input("Enter student name: ")
+reg_no = input("Enter register number: ")
+department = input("Enter department: ")
+marks = int(input("Enter marks: "))
+if marks < 0 or marks > 100:
+    print("Invalid marks")
+    exit()
+print("\nStudent Details")
+print("Name:", name)
+print("Register No:", reg_no)
+print("Department:", department)
+print("Marks:", marks)
